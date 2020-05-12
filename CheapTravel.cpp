@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
 
 	for (int y = n-1; y>=0; --y)
 		{
-			x = ceil((n-y)/(float)m);
+			x = ceil((n-y)/(float)m);	//if all the terms in ceil func. has int data type fractions would change into int before going into ceil func.
 			//cout<<x<<" ";
 
 			if(((a*y)+(x*b))<min) min = (a*y)+(x*b);
