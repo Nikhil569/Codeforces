@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+	int n, x=0;
+	cin>>n;
+
+	for(int i=0; i<n; i++){
+		string stat;
+		cin>>stat;
+		if(stat[1] == '+'){
+			x++;
+		}
+
+		else{
+			x--;
+		}
+
+	}
+
+	cout<<x;
+
+
+	return 0;
+}	
